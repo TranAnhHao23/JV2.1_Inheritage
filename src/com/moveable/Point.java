@@ -1,15 +1,13 @@
-package com.point;
+package com.moveable;
 
-import java.util.Arrays;
-
-public class Point2D {
+public class Point {
     private double x;
     private double y;
 
-    public Point2D() {
+    public Point() {
     }
 
-    public Point2D(double x, double y) {
+    public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
@@ -35,24 +33,16 @@ public class Point2D {
         setY(y);
     }
 
-//    public double[] getXY(){
-//        double[] arrays = new double[2];
-//        arrays[0] = getX();
-//        arrays[1] = getY();
-//        return arrays;
-//    }
-
     public double[] getXY(){
-        double[] triOcCho = new double[2];
-        triOcCho[0] = this.x;
-        triOcCho[1] = getY();
-
-        return triOcCho;
+        double[] xy = new double[2];
+        xy[0] = getX();
+        xy[1] = getY();
+        return xy;
     }
 
     @Override
     public String toString() {
-        return "Point2D{" +
+        return "Point{" +
                 "x= " + x +
                 ", y= " + y +
                 '}';
