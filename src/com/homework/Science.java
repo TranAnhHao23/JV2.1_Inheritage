@@ -21,6 +21,6 @@ public class Science extends Book {
 
     @Override
     public String toString() {
-        return "Science book has type of " + this.type + super.toString();
+        return "Science book has type of " + this.type+ " " + super.toString();
     }
 }

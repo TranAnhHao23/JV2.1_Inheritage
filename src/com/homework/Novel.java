@@ -21,6 +21,6 @@ public class Novel extends Book {
 
     @Override
     public String toString() {
-        return "Author of this novel is " + this.author + super.toString();
+        return "Author of this novel is " + this.author+ " " + super.toString();
     }
 }

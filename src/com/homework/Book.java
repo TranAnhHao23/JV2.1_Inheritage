@@ -57,4 +57,5 @@ public class Book {
                 ", publicationDate='" + publicationDate + '\'' +
                 '}';
     }
+
 }
